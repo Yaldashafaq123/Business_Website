@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Web Studio</title>
+  <meta name="title" content="Web Studio">
+  <meta name="description" content="This is a business agency html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/Logo.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body dir="rtl">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header dir="ltr" class="header" data-header >
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="/Logo.png" width="74" height="24"  class="logo-light">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="/Logo.png" width="74" height="24" >
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list" dir="rtl">
+
+          <li>
+            <a href="#" class="navbar-link">صفحه اصلی</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">درباره ما</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link">وبلاگ</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link">طراحی سایت اختصاصی</a>
+          </li>
+
+          <li>
+            <a href="#footer" class="navbar-link">تماس با ما </a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">info@email.com</a>
+
+          <a href="tel:001234567890" class="contact-link">00 (123) 456 78 90</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#" class="btn btn-primary">ثبت نام / ورود</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/Bg-blog.jpeg')">
+        <div class="container">
+
+          <div class="hero-content" dir="rtl">
+
+            <h1 class="h1 hero-title">طراحی راه‌حل‌های اختصاصی پروژه با تخصص.</h1>
+
+            <p class="hero-text">
+              ما یک شرکت خلاق هستیم که بر ایجاد روابط بلندمدت با مشتریان تمرکز دارد.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#" class="btn btn-primary">بازدید </a>
+
+              <a href="#" class="btn btn-outline">تماس با ما</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/hero-slide-2.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-labelledby="service-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label">فعالیت‌های ما</p>
+
+          <h2 class="h2 section-title">
+            سرویسی که ارائه می‌دهیم، به طور خاص برای برآورده کردن نیازهای شما طراحی شده است.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">پشتیبانی و مشاوره رایگان24/7</h3>
+
+                <p class="card-text">
+                  تیم پشتیبانی ما در تمام ساعات شبانه‌روز آماده پاسخگویی به سوالات و رفع مشکلات شما است. هر زمان که نیاز داشتید، می‌توانید روی ما حساب کنید.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">و...</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">طراحی حرفه‌ای وب سایت</h3>
+
+                <p class="card-text">
+                  شعار وب استادیو برای انجام پروژه های مختلف همین است؛ کیفیت، پیشرفت و توسعه؛ چرا که معتقد هستیم با رشد و پیشرفت مشتریان محترممان مجموعه وب استادیو نیز پیشرفت می کند.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">و...</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">بروزرسانی‌</h3>
+
+                <p class="card-text">
+                  ما به‌طور مداوم محتوای جدید و اطلاعات به‌روز را در اختیار شما قرار می‌دهیم. با ما همراه باشید تا همیشه از آخرین تغییرات مطلع شوید.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">و...</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">ارائه خدمات در کوتاه ترین زمان</h3>
+
+                <p class="card-text">
+                  تیم وب استادیو یکی از چندین شرکت نرم افزاری ایران است که با مکانیزه کردن فرایندهای سفارش دهی مشتریان محترم،می تواند در کوتاه ترین زمان خدمات مطلوب و مناسبی را ارائه دهد.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">و...</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">چرا ما را انتخاب کنید؟</p>
+
+            <h2 class="h2 section-title">
+              رضایت شما برای ما مهم تر است!
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">طراحی حرفه‌ای وب سایت</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    ما وب‌سایت‌هایی با طراحی مدرن، کاربرپسند و متناسب با نیازهای شما ایجاد می‌کنیم. تجربه‌ای منحصربه‌فرد و حرفه‌ای را برای کاربران شما فراهم می‌آوریم.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">پشتیبانی درجه یک</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    یک مجموعۀ موفق، تنها با تبلیغات و جایزه‌های میلیونی خلق نمی‌شود. موفقیت زمانی اتفاق خواهد افتاد که شما، مشتری‌های خود را به چشم انسان‌هایی واقعی ببینید. انسان‌هایی که فکر می‌کنند و تصمیم می‌گیرند. رشد یعنی شما فکر و انرژی خود را پای بهتر کردن زندگی این انسان‌ها بگذارید.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">ارائه خدمات در کوتاه ترین زمان</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    ما متعهد هستیم که خدمات باکیفیت را در سریع‌ترین زمان ممکن به شما ارائه دهیم. سرعت و دقت در انجام کار،از اولویت های اصلی ماست.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label"></p>
+
+            <h2 class="h2 section-title">
+              ساخت سایت اختصاصی
+            </h2>
+
+            <p class="section-text">
+              شرکت طراحی سایت وب استادیو با داشتن تجربه و نیروی متخصص در زمینه طراحی سایت و ارائه نمونه کار های حرفه ای و اختصاصی  به شما کمک می کند تا اولین گام را در جهت آنلاین سازی کسب و کار خود و رضایت مشتریان بردارید.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    توجه ویژه به (UI و UX)
+طراحی توسط تیم تخصصی
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    ارائه نسخه هماهنگ با سایت
+طراحی نسخه بهینه و سینک
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    صفرتا‌صد کدنویسی اختصاصی
+کدنویسی مطابق تکنولوژی روز
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    پشتیبانی یکساله رایگان
+                    یکسال پشتیبانی فنی رایگان
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" aria-label="our stats" id="blog">
+        <div class="container">
+
+          <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/Bg-blog.jpeg')">
+
+            <li>
+              <p class="card-text">
+                <span class="h1">20+</span>
+
+                <spna class="span">Completed Projects</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">15+</span>
+
+                <spna class="span">Happy Customers</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">10+</span>
+
+                <spna class="span">Expert Employees</spna>
+              </p>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label" id="service">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">نمونه کار طراحی سایت </p>
+
+          <h2 class="h2 section-title">
+            انواع طراحی سایت مناسب کسب و کار شما
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/organ.jpeg" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      طراحی سایت شرکت ها  </a>
+                  </h3>
+
+                  <p class="card-text">
+                    وب‌سایت شرکتی شما، هویت دیجیتال کسب‌وکار شماست! با یک طراحی مدرن و رسمی، اعتبار برند خود را افزایش دهید. معرفی خدمات، نمونه‌کارها و ارتباط مستقیم با مشتریان، تنها بخشی از امکانات سایت شما خواهد بود.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">post</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/com.jpeg" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">طراحی سایت خدماتی</a>
+                  </h3>
+
+                  <p class="card-text">
+                    کسب‌وکار خود را به دنیای دیجیتال بیاورید و خدمات خود را به صورت آنلاین ارائه دهید. با یک سایت حرفه‌ای، مشتریان به راحتی می‌توانند با شما ارتباط برقرار کنند و از خدمات شما استفاده کنند. افزایش مشتریان و درآمد را با طراحی اختصاصی تجربه کنید!
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-03-29">29 Mar 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">post</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/Education.jpeg" width="560" height="350" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">طراحی سایت آموزشی</a>
+                  </h3>
+
+                  <p class="card-text">
+                    آموزش‌های خود را به صورت آنلاین ارائه دهید و به هزاران دانشجو دسترسی پیدا کنید. طراحی حرفه‌ای، پنل مدیریت آسان و امکانات پیشرفته یادگیری را برای شما فراهم می‌کند. دوره‌های آنلاین، آزمون‌ها و گواهینامه‌ها را در یک پلتفرم جامع ارائه دهید!
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-02-26">26 Feb 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">post</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/online store.jpeg" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      طراحی سایت فروشگاهی  </a>
+                  </h3>
+
+                  <p class="card-text">
+                    یک فروشگاه اینترنتی حرفه‌ای بسازید و محصولات خود را به سراسر کشور عرضه کنید. طراحی مدرن و کاربرپسند، تجربه خریدی آسان و لذت‌بخش را برای مشتریان شما فراهم می‌کند. با امکانات پیشرفته، فروش خود را چندین برابر کنید!
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">post</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/restu.jpeg" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      طراحی سایت رستوران و سفارش غذا 
+                      </a>
+                  </h3>
+
+                  <p class="card-text">
+                    با یک سایت اختصاصی، مشتریان شما می‌توانند به راحتی منوی غذا را مشاهده و آنلاین سفارش دهند. طراحی زیبا و حرفه‌ای باعث جذب مشتریان بیشتر و افزایش فروش خواهد شد. سفارش آنلاین را ساده کنید و تجربه‌ای سریع و بی‌دردسر را ارائه دهید!
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">post</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/Website.jpeg" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      طراحی سایت موسسه ها  </a>
+                  </h3>
+
+                  <p class="card-text">
+                    برای مؤسسه خود یک وب‌سایت حرفه‌ای و جذاب داشته باشید و خدمات خود را به صورت آنلاین معرفی کنید. با طراحی کاربرپسند، اعتماد مشتریان را جلب کرده و برند خود را تقویت کنید. امکان رزرو آنلاین، انتشار اخبار و اطلاعات را برای مخاطبان خود فراهم کنید.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">post</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action" >
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            با استفاده از خدمات ما با ما بپیوندید و کسب‌ و کار خود را رشد دهید.
+          </h2>
+
+          <a href="#" class="btn btn-primary"><img src="./Logo.png" width="150" height="100"></a>
+           
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="/Logo.png" width="74" height="24" alt="Adex home">
+        </a>
+
+        <p class="footer-text">
+          &copy; ۲۰۲۴ webStudio <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">راه های ارتباطی به ما </p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            کابل , افغانستان
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:info@email.com" class="footer-link">webStudio24@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:001234567890" class="footer-link">00 (93) 456 78 90</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">درباره ما</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">فعالیت‌های ما</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">نمونه کار</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">تماس با ما </a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">رضایت مشتری‌</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">خدمات ما</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
